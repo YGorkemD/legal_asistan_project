@@ -1,0 +1,15 @@
+# app_config.yaml
+
+application:
+  title: "Legal Assistant with RAG"
+  description: "Türkçe yasal belgelerden hızlı ve doğru yanıtlar alın."
+  vector_store: "faiss"    # faiss veya chroma
+  top_k: 5
+  logging_level: "INFO"
+
+ui:
+  upload_label: "Yasal belgelerinizi yükleyin (PDF, DOCX, TXT)"
+  search_button: "🔎 Ara"
+  summarize_button: "📝 Belgeyi Özetle"
+  result_label: "📌 İlgili Belgeler:"
+  summary_label: "📄 Belge Özeti:"

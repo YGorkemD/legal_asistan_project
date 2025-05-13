@@ -1,0 +1,12 @@
+# model_config.yaml
+
+vectorization:
+  model_name: "all-mpnet-base-v2"
+  embedding_dim: 768
+  faiss_index_path: "models/embeddings/faiss_index.bin"
+  chroma_directory: "models/embeddings/chroma"
+  top_k: 5
+
+api:
+  max_tokens: 300
+  temperature: 0.7
